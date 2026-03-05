@@ -1,13 +1,11 @@
-a, b = input().split()
-a = int(a)
-b = int(b)
+path = r"C:\uni programming\Python PP2\python-practice\Practice1\python-basics\test5.txt"
 
-def squares_generator(start, end):
-    for i in range(start, end+1):
-        squared = i**2
-        yield squared
+with open(path, "w", encoding="utf-8") as f:
+    f.write("new place")
 
-gen = squares_generator(a, b)
+with open(path, "a", encoding="utf-8") as f:
+    f.write("\nNew line added")
 
-for num in gen:
-    print(num)
+with open(path, "r", encoding="utf-8") as f:
+    content = f.read()
+    print(content)

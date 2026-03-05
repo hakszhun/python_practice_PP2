@@ -1,1 +1,3 @@
-print('HEllo')
+import os
+
+print(os.getcwd())
