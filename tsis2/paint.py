@@ -1,11 +1,4 @@
-"""
-paint.py — TSIS 2
-Keys:
-  L=Pencil, N=Straight line, Z=Rect, X=Circle, Q=Square,
-  W=Right tri, E=Equil tri, R=Rhombus, F=Fill, T=Text, C=Eraser, A=Clear
-  1/2/3 = brush size   Ctrl+S = save PNG
-Colors: click colored squares in the top-left corner
-"""
+
 
 import pygame
 import datetime
